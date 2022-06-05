@@ -14,9 +14,9 @@ body {
     justify-content: center;
     align-content: center;
     height: 100vh;
-    grid-template-columns: repeat(4, 150px);
-    grid-template-rows: minmax(250px,auto) repeat(5, 150px);
-    grid-gap: 12px; 
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(120px,auto) repeat(5, 80px);
+    grid-gap: 8px; 
     margin: auto;
 }
 
@@ -39,13 +39,13 @@ body {
 } */
 
 #mainOutput {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 button {
     border-radius: 50%;
     border: none;
-    font-size: 50px;
+    font-size: 25px;
     background-color: #dddddd;
     transition: ease;
 }
@@ -58,7 +58,7 @@ button:hover {
 .operator {
     background-color: #2C5364;
     color: white;
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .equal, .delete, .clear{
